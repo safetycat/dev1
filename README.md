@@ -76,7 +76,8 @@ now you need to set up a git repo....
 
 git remote add origin https://github.com/safetycat/dev2.git
 
+git pull origin master
 
-
+git push -u origin master
 
 
