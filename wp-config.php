@@ -97,7 +97,7 @@ if (!defined('WP_CONTENT_DIR')) {
 	define('WP_CONTENT_DIR', dirname(__FILE__) . '/content');
 }
 if (!defined('WP_CONTENT_URL')) {
-	define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/content');
+	define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/safetycat/content');
 }
 
 
