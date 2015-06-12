@@ -34,30 +34,45 @@ now type <code>yo wordpress</code>
 
 you will be prompted for several things:
 
-wordpress URL: this is the address of your localhost and folder you just created, so if the folder I just created in htdocs was 'foobar' then most likely the wordpress URL I want to put here will be <code>localhost/foobar</code>
+<code>wordpress URL</code>: this is the address of your localhost and folder you just created, so if the folder I just created in htdocs was 'foobar' then most likely the wordpress URL I want to put here will be <code>localhost/foobar</code>
 
-Table prefix: up to you because we're not version controlling the database or the config file so it's not shared - when the site is deployed to production it will have its own prefix, it helps to choose something with an underscore at the end.
+<code>Table prefix:</code> up to you because we're not version controlling the database or the config file so it's not shared - when the site is deployed to production it will have its own prefix, it helps to choose something with an underscore at the end.
 
-Database host: this is most likely localhost
+<code>Database host</code>: this is most likely localhost
 
-Database name: the one you made earlier
-Database user: the one you made earlier
-Database password: the one you made earlier
+<code>Database name</code>: the one you made earlier
+<code>Database user</code>: the one you made earlier
+<code>Database password</code>: the one you made earlier
 
-Use Git: answer Y to this
-Would you like to install Wordpress as a submodule? : answer Y to this
-Wordpress install directory: just use <code>wordpress</code> for now probably it will change on deploy
-Wordpress content directory: just use <code>content</code> for now for same reason
+<code>Use Git</code>: answer Y to this
+<code>Would you like to install Wordpress as a submodule? </code>: answer Y to this
+<code>Wordpress install directory</code>: just use <code>wordpress</code> for now probably it will change on deploy
+<code>Wordpress content directory</code>: just use <code>content</code> for now for same reason
 
-Install a custom theme?: answer Y to this
-Destination directory: might be project specific, but if in doubt put 'catsage'
-Theme source type (git/tar): answer git to this
-Task runner (grunt/gulp): answer gulp to this
-GitHub username: is <code>safetycat</code>
-GitHub repository name: is <code>catsage</code>
-Repository branch: is <code>master</code>
+<code>Install a custom theme?</code>: answer Y to this
+<code>Destination directory</code>: might be project specific, but if in doubt put 'catsage'
+<code>Theme source type (git/tar)</code>: answer git to this
+<code>Task runner (grunt/gulp)</code>: answer gulp to this
+<code>GitHub username</code>: is <code>safetycat</code>
+<code>GitHub repository name</code>: is <code>catsage</code>
+<code>Repository branch</code>: is <code>master</code>
 
-answer Y to Does this all look correct? if it does.
+answer Y to <code>Does this all look correct? if it does.
+
+... WAIT ...
+
+if anything goes wrong in the next part probably best let me know, use https://safetycat.slack.com/messages/general/ to let me know, email me if you need a slack account.
+
+now you need to open the text file .gitignore -> this might be harder for some people than others.. 
+
+around line 12 you will see #ignore config followed by local-config.php on the line below this add <code>wp-config.php</code> and below this add <code>.htaccess</code>
+
+
+
+
+
+
+
 
 
 
