@@ -1,6 +1,5 @@
-# Setting up a new project
-
-dependencies: Make sure you have node and yeoman installed use the instructions below
+# Dependencies
+Make sure you have node, yeoman and yeopress installed - use the instructions below this only has to be done once not per-project.
 
 ## installing node and yeoman
 you need to install node first as yeoman is a node package
@@ -21,4 +20,4 @@ type:
     
 this should install the wordpress generator for yeoman
 
-
+# Setting up a new project
