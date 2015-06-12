@@ -80,4 +80,8 @@ git pull origin master
 
 git push -u origin master
 
+bower install
 
+gulp
+
+make changes to the wp-config...
