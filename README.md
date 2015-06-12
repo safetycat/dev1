@@ -21,3 +21,10 @@ type:
 this should install the wordpress generator for yeoman
 
 # Setting up a new project
+
+So far you're gonna still have to make a new blank database, one day we'll automate this too. make a new database remeber the name and the username and password you use to connect to it -> this information stays on your machine because as you'll see later we don't put the wp-config into version control.
+
+create a folder in your htdocs for the project. If you did that using mkdir from the command line then cd into the directory, if you used finder then click into the folder and select the option 'go to folder' from the go menu.
+
+
+
