@@ -1,12 +1,17 @@
 # Dependencies
-Make sure you have node, yeoman and yeopress installed - use the instructions below this only has to be done once not per-project.
+Make sure you have git, node, yeoman and yeopress installed - use the instructions below this only has to be done once not per-project.
+
+## installing git
+if you go to terminal - quick way to do this is using <kbd>⌘</kbd> + <kbd>space</kbd> will open Spotlight then type terminal and hit enter type <code>git --version</code> and you should get something like 'git version 2.3.2' if not you need to install git.
+
+you can download git for mac from here -> http://git-scm.com/download/mac run the installer should work. 
 
 ## installing node and yeoman
 you need to install node first as yeoman is a node package
 
 best way to install node is from the website : https://nodejs.org/download/
 
-when node is installed open terminal - quick way to do this is using <kbd>⌘</kbd> + <kbd>space</kbd> will open Spotlight then type terminal and hit enter
+when node is installed open terminal
 
 type: 
     <code>npm install -g yo</code>
@@ -65,7 +70,9 @@ if anything goes wrong in the next part probably best let me know, use https://s
 
 now you need to open the text file .gitignore -> this might be harder for some people than others.. 
 
-around line 12 you will see #ignore config followed by local-config.php on the line below this add <code>wp-config.php</code> and below this add <code>.htaccess</code>
+around line 12 you will see #ignore config followed by local-config.php on the line below this add <code>wp-config.php</code> and below this add <code>.htaccess</code> then save the file.
+
+now you need to set up a git repo....
 
 
 
