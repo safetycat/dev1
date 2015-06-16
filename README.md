@@ -30,7 +30,7 @@ this should install the wordpress generator for yeoman
 So far you're gonna still have to make a new blank database, one day we'll automate this too. make a new database remeber the name and the username and password you use to connect to it -> this information stays on your machine because as you'll see later we don't put the wp-config into version control.
 
 
-*** create virtual host ***
+*** create virtual host ***  -- dont forget to also add to /etc/hosts// 
 create a folder in your htdocs for the project. If you did that using mkdir from the command line then cd into the directory, if you used finder then you might have to take a short detour. CTRL click the folder and go to services at the bottom of the menu, if you see 'New Terminal at Folder' then you don't have to do the stuff in the paragraph below, just choose 'New Terminal at Folder' otherwise:
 
 In System Preferences choose Keyboard and then Shortcuts. From the left side nav, choose Services. Then from the main area under Files and Folders, choose New Terminal at Folder. Now you can right mouse click or control click on a folder and choose Services > New Terminal at Folder. 
