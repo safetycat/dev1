@@ -108,7 +108,7 @@ type
 
 <code>bower install</code>
 
-<code>gulp<code>
+<code>gulp</code>
 
 You should be ready to go?
 
