@@ -38,6 +38,8 @@ this should install the wordpress generator for yeoman
 In System Preferences choose Keyboard and then Shortcuts. From the left side nav, choose Services. Then from the main area under Files and Folders, choose New Terminal at Folder. Now you can right mouse click or control click on a folder and choose Services > New Terminal at Folder. 
 
 ---------
+---------
+---------
 
 <a id="id1"></a>
 # Setting up a new project
@@ -100,6 +102,8 @@ gulp
 
 make changes to the wp-config...
 
+---------
+---------
 ---------
 
 <a id="id2"></a>
