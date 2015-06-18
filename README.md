@@ -8,7 +8,7 @@
 ------
 <a id="dep"></a>
 # Dependencies
-Make sure you have git, node, yeoman and yeopress installed - use the instructions below this only has to be done once not per-project.
+Make sure you have git, node, yeoman and yeopress installed - use the instructions below this only has to be done once not per-project. You will also need a github.com account.
 
 ## installing git
 if you go to terminal - quick way to do this is using <kbd>⌘</kbd> + <kbd>space</kbd> will open Spotlight then type terminal and hit enter type <code>git --version</code> and you should get something like 'git version 2.3.2' if not you need to install git.
@@ -45,9 +45,15 @@ In System Preferences choose Keyboard and then Shortcuts. From the left side nav
 # Setting up a new project
 So far you're gonna still have to make a new blank database, one day we'll automate this too. make a new database remeber the name and the username and password you use to connect to it -> this information stays on your machine because as you'll see later we don't put the wp-config into version control.
 
+create a folder in your web root (e.g. htdocs or sites or whatever) for the project. 
 
-*** create virtual host ***  -- dont forget to also add to /etc/hosts// 
-create a folder in your htdocs for the project. If you did that using mkdir from the command line then cd into the directory, if you used finder then you might have to take a short detour. CTRL click the folder and go to services at the bottom of the menu, choose 'New Terminal at Folder'.
+Create a vhost for your project -> 
+* if you have MAMP Pro you can use the console.
+* Otherwise see [this page](http://foundationphp.com/tutorials/vhosts_mamp.php) 
+
+Go back to your newly created folder ->
+* If you created the folder using mkdir from the command line then cd into the directory
+* if you created the folder using finder then  CTRL click the folder and go to services at the bottom of the menu, choose 'New Terminal at Folder'.
 
 so you should be in terminal with the current selected folder being the one you just made. If you type <code>ls</code> you should just get a new line
 
@@ -55,9 +61,9 @@ now type <code>yo wordpress</code>
 
 you will be prompted for several things:
 
-<code>wordpress URL</code>: this is the address of your localhost and folder you just created, so if the folder I just created in htdocs was 'foobar' then most likely the wordpress URL I want to put here will be <code>localhost/foobar</code>
+<code>wordpress URL</code>: this is the address of your vhost you just created.
 
-<code>Table prefix:</code> up to you because we're not version controlling the database or the config file so it's not shared - when the site is deployed to production it will have its own prefix, it helps to choose something with an underscore at the end.
+<code>Table prefix:</code> up to you because at the moment we're not version controlling the database or the config file so it's not shared - when the site is deployed to production it will have its own prefix, (b.t.w. it helps to choose something with an underscore at the end as it doesn't put one in)
 
 <code>Database host</code>: this is most likely localhost
 
@@ -86,21 +92,25 @@ if anything goes wrong in the next part probably best let me know, use https://s
 
 now you need to open the text file .gitignore -> this might be harder for some people than others.. 
 
+.gitignore is in the folder you should be there in terminal, try <code>sudo open -a TextEdit .gitignore</code> if you don't have a better idea.
+
 around line 12 you will see #ignore config followed by local-config.php on the line below this add <code>wp-config.php</code> and below this add <code>.htaccess</code> then save the file.
 
-now you need to set up a git repo....
+now you need to set up a new git repo for the new file. Log into github and create a new repo using the 'new repository' opion from the + menu on the top right. Give it a name and choose 'public' and 'Initialize this repository with a README' When you click 'create repository' you will go to the new repository page.
 
-git remote add origin https://github.com/safetycat/dev2.git
+On the right near the bottom you will see 'HTTPS clone URL' - use the button to copy the URL to the clipboard and go back to terminal and type
 
-git pull origin master
+<code>git remote add origin [paste URL here]</code> --> so obs don't type [paste URL here] just do it.
 
-git push -u origin master
+type
 
-bower install
+<code>git push -u origin master</code>
 
-gulp
+<code>bower install</code>
 
-make changes to the wp-config...
+<code>gulp<code>
+
+You should be ready to go?
 
 ---------
 ---------
