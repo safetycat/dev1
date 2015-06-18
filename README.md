@@ -1,5 +1,6 @@
 ## Contents 
-[Dependencies](#dep)
+[Dependencies](#dep) 
+
 [Setting up a new project](#id1)  
 [Setting up an existing project](#id2)  
 
