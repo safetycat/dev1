@@ -1,8 +1,10 @@
+## Contents 
+[Dependencies](#dep)
 [Setting up a new project](#id1)  
 [Setting up an existing project](#id2)  
 
 ------
-
+<a id="dep"></a>
 # Dependencies
 Make sure you have git, node, yeoman and yeopress installed - use the instructions below this only has to be done once not per-project.
 
