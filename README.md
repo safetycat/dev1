@@ -1,5 +1,5 @@
 [Setting up a new project](#id1)  
-[Setting up an existing](#id2)  
+[Setting up an existing project](#id2)  
 
 ------
 
