@@ -1,5 +1,7 @@
-[hlink](#id1)  
+[Setting up a new project](#id1)  
+[Setting up an existing](#id2)  
 
+------
 
 # Dependencies
 Make sure you have git, node, yeoman and yeopress installed - use the instructions below this only has to be done once not per-project.
@@ -30,9 +32,9 @@ this should install the wordpress generator for yeoman
 
 ## activate New Terminal at Folder service
 In System Preferences choose Keyboard and then Shortcuts. From the left side nav, choose Services. Then from the main area under Files and Folders, choose New Terminal at Folder. Now you can right mouse click or control click on a folder and choose Services > New Terminal at Folder. 
-<a id="id1"></a>
-# Setting up a new project
 
+# Setting up a new project
+<a id="id1"></a>
 So far you're gonna still have to make a new blank database, one day we'll automate this too. make a new database remeber the name and the username and password you use to connect to it -> this information stays on your machine because as you'll see later we don't put the wp-config into version control.
 
 
@@ -91,3 +93,7 @@ bower install
 gulp
 
 make changes to the wp-config...
+
+---------
+# Setting up an existing project
+<a id="id2"></a>
