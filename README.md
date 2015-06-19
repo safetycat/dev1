@@ -106,6 +106,8 @@ type
 
 <code>git push -u origin master</code>
 
+<code>cd content/themes/catsage </code>
+
 <code>bower install</code>
 
 <code>gulp</code>
