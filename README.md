@@ -59,7 +59,7 @@ so you should be in terminal with the current selected folder being the one you 
 
 now type <code>yo wordpress</code>
 ** on Elvina's mac-mini you need to type
-<code>~/.node/lib/node_modules/yo/lib/cli.js</code> and select 'wordpress' using the up/down arrows instead of typing yo
+<code>~/.node/lib/node_modules/yo/lib/cli.js</code> and select 'wordpress' using the up/down arrows instead of typing yo because of currently unsolved permission error.
 
 you will be prompted for several things:
 
