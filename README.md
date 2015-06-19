@@ -58,6 +58,8 @@ Go back to your newly created folder ->
 so you should be in terminal with the current selected folder being the one you just made. If you type <code>ls</code> you should just get a new line
 
 now type <code>yo wordpress</code>
+** on Elvina's mac-mini you need to type
+<code>~/.node/lib/node_modules/yo/lib/cli.js</code> and select 'wordpress' using the up/down arrows instead of typing yo
 
 you will be prompted for several things:
 
